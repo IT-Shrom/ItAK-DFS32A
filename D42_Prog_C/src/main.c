@@ -2,8 +2,9 @@
 #include <stdio.h>
 #include <time.h>
 #include "controllers/controller.h"
-
-
+/**
+ * SHROM
+ */
 int main() {
     srand(time(NULL));
     Player player1 = {0};
